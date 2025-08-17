@@ -1,7 +1,7 @@
 // Desafio proposto: Classificador de nível de Herói
 
 let nomeHeroi = "Batman"
-let qtdXP = 1150
+let qtdXP = 10001
 let nivelHeroi = ""
 
 // estrutura de decisão do personagem
@@ -17,9 +17,12 @@ if (qtdXP <=1000) {
     nivelHeroi = "Platina"
 } else if (qtdXP >= 8001 && qtdXP <= 9000) {
     nivelHeroi = "Ascendente"
-} else if(qtdXP >= 9001 && 10000) {
+} else if(qtdXP >= 9001 && qtdXP <=10000) {
     nivelHeroi = "Imortal"
-} else (nivelHeroi = "Radiante")
+} else (qtdXP >= 10001) 
+    nivelHeroi = "Radiante"
+
+   
 
 
 // mensagem final
